@@ -1,1 +1,1 @@
-# c#  calışma alanıdır
+c# için kod  calışma alanıdır.
