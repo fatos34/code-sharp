@@ -1,0 +1,5 @@
+using System;
+int? a=null;
+int b=20;
+var sonuc=(a ?? 0)+b;
+Console.Write(sonuc);
