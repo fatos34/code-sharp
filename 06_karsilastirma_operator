@@ -1,0 +1,6 @@
+using System;
+
+int a=5,b=5,c=10,d=3;
+//ternary
+var sonuc=(a>=b)?"a buyuk":(a==b)?"a b esit":"b buyuk";
+Console.Write(sonuc);
