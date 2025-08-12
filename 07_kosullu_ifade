@@ -1,0 +1,21 @@
+using System;
+static void Main(string[]args)
+{
+int sayi;
+Console.Write("lütfen sayı giriniz: ");
+sayi=Convert.ToInt32(Console.ReadLine());
+int birlik,onluk,yuzluk;
+birlik=sayi/10;
+onluk=sayi/100;
+yuzluk=sayi/1000;
+if(birlik==0)
+{ Console.WriteLine("bir basamaklı");}
+else if(onluk==0)
+{ Console.WriteLine("iki basamaklı");}
+else if(yuzluk==0)
+{ Console.WriteLine("üç basamaklı");}
+else
+{ Console.WriteLine("üç basamak üstü");}
+
+Console.ReadKey();
+}
