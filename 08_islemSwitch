@@ -1,0 +1,16 @@
+using System;
+static void Main(string[]args)
+{
+int a=12,b=4,sonuc;
+char d='*';
+switch(d)
+{
+    case '+':sonuc=a+b;Console.WriteLine("sonuc:{0}",sonuc);break;
+    case '-':sonuc=a-b;Console.WriteLine("sonuc:{0}",sonuc);break;
+    case '*':sonuc=a*b;Console.WriteLine("sonuc:{0}",sonuc);break;
+     case '/':sonuc=a/b;Console.WriteLine("sonuc:{0}",sonuc);break;
+     default:Console.Write("yanlış işlem");break;
+}
+
+Console.ReadKey();
+}
