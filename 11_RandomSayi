@@ -1,0 +1,12 @@
+using System;
+
+static void Main(string[] args)
+{
+  Random uret= new Random();
+  for(int i=1;i<=5;i++)
+  {
+      int sp=uret.Next(1,366);
+      int sn=uret.Next(-366,-1);
+      Console.WriteLine("poz:{0}\tneg:{1}",sp,sn);
+  }
+}
